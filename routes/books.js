@@ -7,6 +7,6 @@ const router = express.Router();
 
 router.get("/get", getBooksController);
 
-router.post("/post", addBookController);
+router.post("/add", addBookController);
 
 module.exports = router;
